@@ -12,7 +12,7 @@ const users: {
 } = {};
 const main = async () => {
 	foo: for (const _ in [2]) {
-		if (!data.every(x => x.username && x.password)) return console.log("Malformed config.json.");
+		if (!data.every(x => x.MrdeathInabox && x.password)) return console.log("Malformed config.json.");
 		const gameStatus: {
 			data: { gameClientVersion: string };
 		} = await fetchJson("https://api.prodigygame.com/game-api/status");
